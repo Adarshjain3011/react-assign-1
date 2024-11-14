@@ -98,3 +98,19 @@ button:hover {
   }
 }
 
+
+label {
+  display: none;
+}
+
+/* Display labels only on screens smaller than 768px */
+@media (max-width: 768px) {
+  label {
+    display: block;
+    margin-bottom: 4px; /* Adjust spacing as needed */
+  }
+}
+
+
+
+
